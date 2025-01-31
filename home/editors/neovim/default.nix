@@ -67,9 +67,9 @@ in
 
   programs.nvim = {
     enable = true;
-    package = inputs.nvim-flake.packages.${pkgs.system}.lazynvim;
+    package = pkgs.neovim;
     defaultEditor = true;
     enableFishIntegration = true;
-    withNixLSP = true;
+    withNixLSP = false;
   };
 }

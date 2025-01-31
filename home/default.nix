@@ -13,7 +13,7 @@
 
   imports = [
     ./shell
-    # ./editors
+    ./editors
     ./programs
     ../system/nix/nixpkgs.nix
   ] ++ [ inputs.nix-index-database.hmModules.nix-index ];
